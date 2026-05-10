@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>구재우 전자공학 포트폴리오</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="주요 내비게이션">
+      <a class="brand" href="./index.html" aria-label="홈으로 이동">
+        <span class="brand-mark">J</span>
+        <span>구재우 Portfolio</span>
+      </a>
+      <nav>
+        <a href="./work.html">Work</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1800&q=80"
+            alt=""
+          />
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Electronic Engineering Portfolio</p>
+          <h1 id="hero-title">구재우 전자공학 포트폴리오</h1>
+          <p class="hero-copy">
+            폰 노이만 병목현상을 넘어, 다음 세대의 효율을 설계하는 예비 전자공학도입니다.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="./work.html">
+              <i data-lucide="cpu"></i>
+              주요 활동 보기
+            </a>
+            <a class="button secondary" href="./about.html">
+              <i data-lucide="user-round"></i>
+              자기소개 보기
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-stats" aria-label="핵심 요약">
+        <div>
+          <strong>4</strong>
+          <span>주요 탐구 활동</span>
+        </div>
+        <div>
+          <strong>PIM</strong>
+          <span>Python 시뮬레이션</span>
+        </div>
+        <div>
+          <strong>ESG</strong>
+          <span>친환경 반도체 연구</span>
+        </div>
+      </section>
+
+      <section class="section intro" aria-labelledby="intro-title">
+        <div>
+          <p class="eyebrow">Self-Introduction</p>
+          <h2 id="intro-title">구재우는 시스템의 한계를 질문하고 검증하는 예비 엔지니어입니다.</h2>
+        </div>
+        <p>
+          단순히 지식을 학습하는 데서 멈추지 않고, 왜 병목이 발생하는지와 어떻게 구조를
+          바꾸면 효율을 높일 수 있는지를 탐구해왔습니다. 폰 노이만 구조, GPU 병렬 처리,
+          PIM(Processing-In-Memory)을 비교하며 이론을 Python 시뮬레이션으로 구현하고
+          검증하는 경험을 쌓았습니다.
+        </p>
+      </section>
+
+      <section class="section work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Projects & Activities</p>
+          <h2 id="work-title">주요 활동 내용</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80"
+                alt="회로 기판과 전자 부품"
+              />
+            </div>
+            <div class="project-body">
+              <span class="tag">Computer Architecture</span>
+              <h3>반도체 아키텍처 심화 탐구</h3>
+              <p>폰 노이만 병목현상을 분석하고 하버드 아키텍처와 GPU의 SIMT 구조를 비교했습니다.</p>
+              <button class="icon-button" type="button" data-project="반도체 아키텍처 심화 탐구" aria-label="반도체 아키텍처 심화 탐구 자세히 보기">
+                <i data-lucide="arrow-up-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80"
+                alt="노트북의 프로그래밍 코드"
+              />
+            </div>
+            <div class="project-body">
+              <span class="tag">Python Simulation</span>
+              <h3>PIM 시뮬레이션</h3>
+              <p>메모리 내 연산 방식의 효율성을 Python 데이터 처리 로직으로 검증했습니다.</p>
+              <button class="icon-button" type="button" data-project="PIM 시뮬레이션" aria-label="PIM 시뮬레이션 자세히 보기">
+                <i data-lucide="arrow-up-right"></i>
+              </button>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1200&q=80"
+                alt="재생 에너지 설비"
+              />
+            </div>
+            <div class="project-body">
+              <span class="tag">Sustainable Technology</span>
+              <h3>친환경 반도체 연구</h3>
+              <p>반도체 산업의 순환 경제 모델과 ESG 기반 제조 공정을 탐구했습니다.</p>
+              <button class="icon-button" type="button" data-project="친환경 반도체 연구" aria-label="친환경 반도체 연구 자세히 보기">
+                <i data-lucide="arrow-up-right"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section capabilities" aria-labelledby="capabilities-title">
+        <div class="section-heading">
+          <p class="eyebrow">Resume & Skills</p>
+          <h2 id="capabilities-title">이력 및 기술</h2>
+        </div>
+        <div class="capability-list">
+          <div>
+            <i data-lucide="graduation-cap"></i>
+            <h3>Education</h3>
+            <p>OO고등학교 졸업 예정. 물리학 II, 기하, 미적분 등 수학 및 과학 교과를 중심으로 학습했습니다.</p>
+          </div>
+          <div>
+            <i data-lucide="code-2"></i>
+            <h3>Python</h3>
+            <p>데이터 처리 로직 구현, try-except 기반 예외 처리, 리스트 및 문자열 핸들링을 다룹니다.</p>
+          </div>
+          <div>
+            <i data-lucide="cpu"></i>
+            <h3>Semiconductor</h3>
+            <p>Von Neumann, Harvard, PIM, FinFET, GAAFET, ESG 기반 반도체 모델을 탐구했습니다.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Goal</p>
+          <h2 id="contact-title">데이터의 흐름을 최적화하고 기술의 사회적 책임까지 고민하는 엔지니어로 성장하겠습니다.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="./contact.html">
+            <i data-lucide="goal"></i>
+            성장 목표 보기
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
